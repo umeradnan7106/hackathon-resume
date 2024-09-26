@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo-no-background.png" type="image/x-icon">
+    <title>Resume Builder</title>
+</head>
+
+<body>
+    <h1>Editable Resume</h1>
+    <form id="resume-form">
+        <fieldset>
+            <legend><b> Personal Information </b></legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your name" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Enter your phone number" required>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Education</b></legend>
+            <label for="edu">Education:</label>
+            <textarea id="edu" placeholder="Enter your education" type="text" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><b>Skills</b></legend>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" placeholder="Enter your Skills" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><b>Experience</b></legend>
+            <label for="experience">Experience:</label>
+            <textarea name="experience" id="experience" placeholder="Enter your experience" rows="4" required></textarea>
+        </fieldset>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <br>
+    <div id="resume-display" contenteditable="true">
+    </div>
+    <br>
+    <div id="link" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>Here is your unique link to view or edit your resume:</p>
+        <!-- <a href="#" id="share-link" target="_blank"></a> -->
+        <br>
+        <button id="download-pdf"> Downlaod as a PDF</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

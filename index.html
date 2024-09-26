@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="shortcut icon" href="logo-no-background.png" type="image/x-icon">
+    <title>Static Resume</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="image.jpeg" alt="">
+    </div>
+    <div class="container3">
+        <h1 class="heading2">Profile</h1>
+        <li class="para">To take up every challengig job all with hard work and dedicate time & crossing success
+            milestone in every movement of my personal life & Excel my skills & to be honest to my job</li>
+    
+        <h1 class="heading3">Work Experience</h1>
+        <li class="para">Fresher</li>
+    
+        <h1 class="heading3">Education</h1>
+        <h3>Board Of Intermediate Education</h3>
+        <li class="para">Intermediate By General Science</li>
+        <li class="para">St. Patrick’s College Karachi</li>
+    
+    
+        <h3>Board Of Secondary Education</h3>
+        <li class="para">Matriculation By Computer Sci</li>
+        <li class="para">International School Of Studies</li>
+    </div>
+
+    <div class="container2">
+        <h1 class="name">Umer Adnan</h1>
+        
+        
+        <div class="box">
+            <h1 class="heading">Contact</h1>
+            <div class="info"><img src="8665646_phone_communication_icon (1).png" alt="" width="30px"
+                style="margin-right: 5px;">+92334-7329816</div>
+                <div class="info"><img src="8684902_write_mail_content_email_envelope_icon.png" alt="" width="30px"
+                    style="margin-right: 5px;"><a href="mailto:umeradnan7106@gmail.com">umeradnan7106@gmail.com</a>
+            </div>
+            <div class="info"><img src="352521_location_on_icon.png" alt="" width="30px" style="margin-right: 5px;">42-B
+                Muhammad Ali Housing Society, Karachi</div>
+            </div>
+
+        <div class="box2">
+            <h1 class="heading">Skills</h1>
+            <ul id="unorder">
+                <li class="skill">HTML</li>
+                <li class="skill">CSS (Cascading Style Sheet)</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">TypeScript</li>
+                <li class="skill">Next.js</li>
+                <li class="skill">React.js</li>
+                <li class="skill">Tailwind CSS</li>
+                <li class="skill">APP Router</li>
+                <li class="skill">SSR CSR SSG ISR</li>
+            </ul>
+            <button onclick="hideshow()">Skills Hide & Show</button>
+        </div>
+
+        <script>
+            let div = document.getElementById('unorder');
+            let display = 0;
+
+            function hideshow() {
+                if (display == 1) {
+                    div.style.display = 'block';
+                    display = 0;
+                }
+                else {
+                    div.style.display = 'none';
+                    display = 1;
+                }
+            }
+        </script>
+        <div class="box3">
+            <h1 class="heading">Languages</h1>
+            <ul>
+                <li class="lang">Urdu</li>
+                <li class="lang">English</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="button"><a href="form.html">Generate your own Resume</a></div>
+</body>
+
+</html>
