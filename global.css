@@ -121,29 +121,9 @@ h3{
 .button :hover{
     font-weight: bold;
 }
-/* @media only screen and (max-width: 1650px) {
-    .container3{
-        margin-left: 765px;
-    }
-}
-@media only screen and (max-width: 1500px) {
-    .container3{
-        margin-left: 735px;
-    }
-}
 
-@media only screen and (max-width: 1350px) {
-    .container3{
-        margin-left: 685px;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    .container3{
-        margin-left: 650px;
-    }
-} */
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .container{
         margin: 0;
         width: 0;
@@ -160,4 +140,4 @@ h3{
     .name{
         margin-left: 40px;
     }
-} */
+}
